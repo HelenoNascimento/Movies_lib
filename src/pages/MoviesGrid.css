@@ -105,7 +105,18 @@
     }
 }
 
+
+@media(max-width:450px){
+    .movies-container div{
+        width: 100%;     
+        
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+}
+
 body{
     width: 100vw;
     
-  }
+ }
