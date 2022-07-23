@@ -1,3 +1,11 @@
+
+
+.navbar-container{
+    width: 90%;
+    margin-left: 8%;   
+  
+}
+
 #navbar{
     display: flex;
     justify-content: space-between;
@@ -37,4 +45,31 @@
     background-color: transparent;
     color: #f7d354;
     
+}
+
+@media(max-width:1050px){
+    
+    body{
+        height: auto;
+        width: 100vw;
+    }
+    #navbar{
+       max-width: 1050px;
+    
+    }
+}
+@media(max-width:500px){
+    #navbar form button{
+       
+    }
+    .navbar-container{
+        width:100%;
+      
+    }
+    #navbar input {
+        padding:  0.2rem .8rem;
+        border-radius: 4px;
+        border: none;
+        width: 70%;
+    }
 }

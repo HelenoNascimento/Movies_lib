@@ -18,7 +18,7 @@ const Navbar = () => {
         setSearch("");
     }
   return (
-    <div>
+    <div className="navbar-container">
          <nav id="navbar">
         <h2>
           <Link to="/"><BiCameraMovie />MoviesLib</Link>
